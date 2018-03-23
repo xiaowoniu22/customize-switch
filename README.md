@@ -1,11 +1,14 @@
 # customize-switch
-效果预览https://jsfiddle.net/xiaowoniu/5ds3x37r/62/
+效果预览https://jsfiddle.net/xiaowoniu/5ds3x37r/62/  
 移动端H5开发中经常会用到switch开关，有很多UI库也都提供了switch开关。今天，闲来无事，我自己写了一个自定义开关，具体代码如下：
 # html
+```
 <input type="checkbox" class="switch"/>
+```
 
 
 # css
+```
 .switch{
   appearance: none;
   -moz-appearance: none;
@@ -59,3 +62,4 @@
     transform: translateX(30px);
   }
 }
+```
